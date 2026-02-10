@@ -1,1 +1,5 @@
-cpp/*.cpp linguist-language=C
+* linguist-language=C
+*.md linguist-documentation
+*.txt linguist-documentation
+*.json linguist-vendored
+*.yml linguist-vendored
