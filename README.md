@@ -23,25 +23,27 @@ The repository is organized by academic subject, covering relational databases, 
 │   └── README.md
 ├── entornos/
 │   ├── 00_Examen/
-│   ├── 01_PRJ/ .. 12_PRJ/
-│   ├── 13_Ahorcado/
-│   ├── 14_CambioDeVariables/
-│   ├── 15_Clases/
-│   ├── 16_NIF/
-│   ├── 17_Ruleta/
-│   ├── 18_PRJ/
-│   ├── 19_ClasesPaco/
-│   ├── 20_Dados/
-│   ├── 21_Paco/
-│   ├── 22_Rep02Cadenas/
-│   ├── 23_Pruebas/
-│   ├── 24_BuilderWindow/
-│   ├── 25_ColaboracionClases/
-│   ├── 26_Juegos/
-│   ├── 27_Arrays/
-│   ├── 28_InterfazGrafica/
-│   ├── 29_Banco/
-│   ├── 30_ConexionDB/
+│   ├── 01_HolaMundo/
+│   ├── 02_TiposDeDatos/
+│   ├── 03_Fundamentos/
+│   ├── 04_CadenaDeCaracteres/
+│   ├── 05_Funciones/
+│   ├── 06_Ahorcado/
+│   ├── 07_CambioDeVariables/
+│   ├── 08_Clases/
+│   ├── 09_NIF/
+│   ├── 10_Ruleta/
+│   ├── 11_Clases/
+│   ├── 12_Dados/
+│   ├── 13_Cadenas/
+│   ├── 14_Pruebas/
+│   ├── 15_BuilderWindow/
+│   ├── 16_ColaboracionClases/
+│   ├── 17_Juegos/
+│   ├── 18_Arrays/
+│   ├── 19_InterfazGrafica/
+│   ├── 20_Banco/
+│   ├── 21_ConexionDB/
 │   └── README.md
 ├── metodologia/
 │   ├── 00_Examenes/
@@ -61,7 +63,6 @@ The repository is organized by academic subject, covering relational databases, 
 │   ├── 14_Colas/
 │   ├── 15_Listas/
 │   ├── 16_Pilas/
-│   ├── 17_RobotV2/
 │   └── README.md
 ├── programacion/
 │   ├── 00_Examenes/
@@ -71,24 +72,19 @@ The repository is organized by academic subject, covering relational databases, 
 │   ├── 04_TresEnRaya/
 │   ├── 05_Tablero/
 │   ├── 06_Funciones/
-│   ├── 07_TresEnRayaConFunciones/
-│   ├── 08_Sudoku/
-│   ├── 09_Estructuras/
-│   ├── 10_Punteros/
-│   ├── 11_CalculadoraPorReferencia/
-│   ├── 12_MenuConReferenciaYFunciones/
-│   ├── 13_PasoPorReferenciaConEstructuras/
-│   ├── 14_Alumnos/
-│   ├── 15_AlgoritmosDeOrdenacion/
-│   ├── 16_GestionInventario/
-│   ├── 17_GestionInventarioV2/
-│   ├── 18_Astronautas/
-│   ├── 19_Olimpiadas/
-│   ├── 20_FuncionesUtiles/
-│   ├── 21_MemoriaDinamica/
-│   ├── 22_EstructurasDinamicas/
-│   ├── 23_AlumnosV2/
-│   ├── 24_PokemonCMD/
+│   ├── 07_Sudoku/
+│   ├── 08_Estructuras/
+│   ├── 09_Punteros/
+│   ├── 10_CalculadoraPorReferencia/
+│   ├── 11_MenuConReferenciaYFunciones/
+│   ├── 12_PasoPorReferenciaConEstructuras/
+│   ├── 13_Alumnos/
+│   ├── 14_AlgoritmosDeOrdenacion/
+│   ├── 15_GestionInventario/
+│   ├── 16_Astronautas/
+│   ├── 17_Olimpiadas/
+│   ├── 18_MemoriaDinamica/
+│   ├── 19_PokemonCMD/
 │   └── README.md
 ├── web/
 │   ├── 00_Examenes/
@@ -97,14 +93,14 @@ The repository is organized by academic subject, covering relational databases, 
 │   ├── 03_Google/
 │   ├── 04_GoogleSearch/
 │   ├── 05_Horario/
-│   ├── 06_JoyfeCopia/
+│   ├── 06_Joyfe/
 │   ├── 07_BuscadorGoogle/
 │   ├── 08_HolaMundo/
 │   ├── 09_Enlaces/
 │   ├── 10_Estilos/
 │   ├── 11_Formulario/
-│   ├── 12_GoogleFloat/
-│   ├── 13_UnionWeb/
+│   ├── 12_GoogleCopia/
+│   ├── 13_Links/
 │   ├── 14_Youtube/
 │   ├── 15_Fifa/
 │   ├── 16_Twitter/
@@ -140,14 +136,14 @@ The repository is organized by academic subject, covering relational databases, 
 | **Libraries & APIs** | Java Standard Library (`java.util`, `java.awt`, `javax.swing`, `java.sql`), C/C++ Standard & POSIX/Windows Libraries (`stdio.h`, `stdlib.h`, `string.h`, `stdbool.h`, `time.h`, `math.h`, `ctype.h`, `conio.h`, `unistd.h`, `iostream`), MySQL Connector/J (`com.mysql.cj.jdbc.Driver`), Bootstrap Icons CDN, Font Awesome Kit |
 | **Databases** | MySQL 8.0+ (including standard sample schemas such as `sakila` and `world`, plus custom course schemas) |
 | **IDEs & Editors** | Eclipse IDE 2024-09 (4.33.0) with WindowBuilder, Orwell Dev-C++ 5.10, MySQL Workbench 8.0.41 CE, Visual Studio Code |
-| **Compilers & Build Tools** | TDM-GCC 4.8.1 (64-bit MinGW-w64 `gcc.exe` / `g++.exe`, Dev-C++ generated `Makefile.win`), Java compiler (`javac`) |
+| **Compilers & Build Tools** | TDM-GCC 4.8.1 (64-bit MinGW-w64 `gcc.exe` / `g++.exe`), Java compiler (`javac`) |
 
 ---
 
 ## Additional Information
 
 > [!NOTE]
-> Within each subject directory, folders are numbered sequentially (`01_`, `02_`, etc.) to reflect the chronological progression of topics throughout the academic year. Folder `00_Examen` or `00_Examenes` in each subject groups exam preparation exercises, midterms (*parciales*), and final practical evaluations.
+> Within each subject directory, folders are numbered sequentially (`01_`, `02_`, etc.) to reflect the chronological progression of topics throughout the academic year. Folder `00_Examen` or `00_Examenes` in each subject groups exam preparation exercises, midterms (*parciales*), and final practical evaluations organized by examination period (`Diciembre`, `Marzo`).
 
 > [!WARNING]
 > Because this repository is an authentic archive of first-year coursework and timed examination submissions, some exercises are partial implementations, contain experimental logic, or depend on local classroom configurations (such as Windows-specific headers or local MySQL instances). Refer to the individual subject README files for specific environment requirements and execution details.

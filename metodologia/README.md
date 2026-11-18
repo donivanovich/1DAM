@@ -16,9 +16,8 @@ This directory contains C programs, algorithmic exercises, console games, grid s
 ### Development Tools
 - **[Orwell Dev-C++ 5.10](https://sourceforge.net/projects/orwelldevcpp/files/5.10/TDM-GCC%20x64/devcpp-5.10_setup.exe/download)**
 
-### Build Systems and Compilers
-- **TDM-GCC 4.8.1 (64-bit Release)** (`gcc.exe`, `g++.exe`, `windres.exe`)
-- **Dev-C++ Project Files:** `.dev` project manifests, `.layout` editor state files, and auto-generated `Makefile.win` build scripts
+### Compilers
+- **TDM-GCC 4.8.1 (64-bit Release)** (`gcc.exe`)
 
 ---
 
@@ -26,64 +25,52 @@ This directory contains C programs, algorithmic exercises, console games, grid s
 
 ### `00_Examenes` — Examinations and Practice Sets
 
-#### `01_PreExamen`
-- **Name:** `01_PreExamen`
-- **Description:** Pre-exam C program that reverses each individual word in a sentence while preserving the original word order (e.g., `"Hola mundo desde C"` -> `"aloH odnum edsed C"`).
+#### `Diciembre/Practicas`
+- **Name:** `Diciembre/Practicas`
+- **Description:** Pre-exam C program ([`main.c`](./00_Examenes/Diciembre/Practicas/main.c)) that reverses each individual word in a sentence while preserving the original word order (e.g., `"Hola mundo desde C"` -> `"aloH odnum edsed C"`).
 - **Technologies:** C (`stdio.h`, `stdlib.h`, `string.h`)
 - **Key Features:** Modularized into `leerCadena` (using `fgets`), `invertirPalabras` (scanning word boundaries and reversing character slices in place), and `imprimirCadena`.
-- **Location:** [`./00_Examenes/01_PreExamen`](./00_Examenes/01_PreExamen)
+- **Location:** [`./00_Examenes/Diciembre/Practicas`](./00_Examenes/Diciembre/Practicas)
 
-#### `02_Examen`
-- **Name:** `02_Examen`
-- **Description:** First-term written/pseudocode examination file (`Examen1DAMB.c`) using Spanish algorithmic pseudocode macros (`INICIAR`, `CADENA`, `ENTERO`, `IMPRIMIR`, `LEER`, `DESDE`, `SI`/`SINO`, `ALEATORIO`).
+#### `Diciembre/Final`
+- **Name:** `Diciembre/Final`
+- **Description:** First-term written/pseudocode examination file ([`main.c`](./00_Examenes/Diciembre/Final/main.c)) using Spanish algorithmic pseudocode macros (`INICIAR`, `CADENA`, `ENTERO`, `IMPRIMIR`, `LEER`, `DESDE`, `SI`/`SINO`, `ALEATORIO`).
 - **Technologies:** C-style Spanish pseudocode
 - **Key Features:** Framing a user's name in `#` characters, checking 10 input digits for 0–9 uniqueness, and applying random arithmetic operations (`1`–`4`) to two numbers.
-- **Location:** [`./00_Examenes/02_Examen`](./00_Examenes/02_Examen)
+- **Location:** [`./00_Examenes/Diciembre/Final`](./00_Examenes/Diciembre/Final)
 
-#### `03_EjerciciosSencillosDeFunciones`
-- **Name:** `03_EjerciciosSencillosDeFunciones`
-- **Description:** Six introductory C projects practicing function definitions, parameters, and return values.
+#### `Marzo/Practicas`
+- **Name:** `Marzo/Practicas`
+- **Description:** Eight practice projects preparing for the second-term midterm and final exams, covering modular functions, pointers, arrays, and 2D character maps.
 - **Technologies:** C (`stdio.h`, `stdlib.h`, `stdbool.h`, `string.h`, `math.h`, `conio.h`)
 - **Key Features:**
-  - [`IMC`](./00_Examenes/03_EjerciciosSencillosDeFunciones/IMC): Calculates Body Mass Index (`peso / (altura * altura)`) in `calcularIMC()`.
-  - [`PintarPorPantallaNombre`](./00_Examenes/03_EjerciciosSencillosDeFunciones/PintarPorPantallaNombre): Reads a name (`pedirNombre`) and prints a formatted compliment (`imprimirExpresion`).
-  - [`PiramideDeAsteriscos`](./00_Examenes/03_EjerciciosSencillosDeFunciones/PiramideDeAsteriscos): Encapsulates centered asterisk pyramid rendering in `imprimirPiramide(int altura)`.
-  - [`StrlenCasero`](./00_Examenes/03_EjerciciosSencillosDeFunciones/StrlenCasero): Custom string length implementation (`calcLongitud`) iterating until `'\0'`.
-  - [`TripleDeUnNumero`](./00_Examenes/03_EjerciciosSencillosDeFunciones/TripleDeUnNumero): Splits input acquisition (`AdquirirNumero`) and tripling (`Triplicar`).
-  - [`VocalBoolean`](./00_Examenes/03_EjerciciosSencillosDeFunciones/VocalBoolean): Returns `bool` (`true`/`false`) indicating whether a character is a vowel (`comprobar`).
-- **Location:** [`./00_Examenes/03_EjerciciosSencillosDeFunciones`](./00_Examenes/03_EjerciciosSencillosDeFunciones)
+  - [`IMC`](./00_Examenes/Marzo/Practicas/IMC): Calculates Body Mass Index (`peso / (altura * altura)`) in `calcularIMC()`.
+  - [`PintarPorPantallaNombre`](./00_Examenes/Marzo/Practicas/PintarPorPantallaNombre): Reads a name (`pedirNombre`) and prints a formatted compliment (`imprimirExpresion`).
+  - [`PiramideDeAsteriscos`](./00_Examenes/Marzo/Practicas/PiramideDeAsteriscos): Encapsulates centered asterisk pyramid rendering in `imprimirPiramide(int altura)`.
+  - [`StrlenCasero`](./00_Examenes/Marzo/Practicas/StrlenCasero): Custom string length implementation (`calcLongitud`) iterating until `'\0'`.
+  - [`TripleDeUnNumero`](./00_Examenes/Marzo/Practicas/TripleDeUnNumero): Splits input acquisition (`AdquirirNumero`) and tripling (`Triplicar`).
+  - [`VocalBoolean`](./00_Examenes/Marzo/Practicas/VocalBoolean): Returns `bool` (`true`/`false`) indicating whether a character is a vowel (`comprobar`).
+  - [`EjerciciosParcial`](./00_Examenes/Marzo/Practicas/EjerciciosParcial): Multi-exercise menu program implementing 10 utility functions (`darMensaje`, `mediaNumeros`, `mediaArray`, `ultimoCaracter`, `imprimirTablero`, `esDivisible`, `esPrimo`, `menorNumero`, `esPalindromo`, `sustituirLetra`).
+  - [`EjerciciosExamen`](./00_Examenes/Marzo/Practicas/EjerciciosExamen): Exam review suite practicing case-toggling (`alternarLetras`), fixed and parameterized substring search (`taco`, `detectarPalabra`), alternating array addition/subtraction (`alternarOperadores`), and centering a `'#'` marker on odd-dimensioned grids (`mapaCaracteres`).
+- **Location:** [`./00_Examenes/Marzo/Practicas`](./00_Examenes/Marzo/Practicas)
 
-#### `04_BloqueDeFuncionesI`
-- **Name:** `04_BloqueDeFuncionesI`
-- **Description:** Multi-exercise menu program implementing 10 utility functions in a single project.
-- **Technologies:** C (`stdio.h`, `stdlib.h`, `string.h`, `stdbool.h`)
-- **Key Features:** Asterisk message framing (`darMensaje`), two-number mean (`mediaNumeros`), integer array average (`mediaArray`), last character extraction (`ultimoCaracter`), 2D board row/column printer (`imprimirTablero`), divisibility check (`esDivisible`), primality test (`esPrimo`), array minimum (`menorNumero`), palindrome detector (`esPalindromo`), and vowel replacement (`sustituirLetra`).
-- **Location:** [`./00_Examenes/04_BloqueDeFuncionesI`](./00_Examenes/04_BloqueDeFuncionesI)
-
-#### `05_Parcial` — Cinema Seat Reservation System
-- **Name:** `05_Parcial`
-- **Description:** Midterm exam (`Cines.dev`) modeling a 5-auditorium cinema management system using nested `struct` types and pointer parameters.
+#### `Marzo/Parcial` — Cinema Seat Reservation System
+- **Name:** `Marzo/Parcial`
+- **Description:** Second-term midterm exam ([`main.c`](./00_Examenes/Marzo/Parcial/main.c)) modeling a 5-auditorium cinema management system using nested `struct` types and pointer parameters.
 - **Technologies:** C (`stdio.h`, `stdlib.h`, `stdbool.h`, `string.h`)
 - **Key Features:** Defines `Butaca` (120 seats per auditorium), `Sala`, and `Pelicula` structs; implements seat booking (`ReservarButaca`), reservation cancellation (`CancelarReserva`), movie-to-room assignment (`AsignarPelicula`), and auditorium reset (`LiberarSala`).
-- **Location:** [`./00_Examenes/05_Parcial`](./00_Examenes/05_Parcial)
+- **Location:** [`./00_Examenes/Marzo/Parcial`](./00_Examenes/Marzo/Parcial)
 
-#### `06_EjerciciosRepaso`
-- **Name:** `06_EjerciciosRepaso`
-- **Description:** Exam review suite practicing pointer-based string manipulation, array arithmetic, and 2D character maps.
-- **Technologies:** C (`stdio.h`, `stdlib.h`, `stdbool.h`)
-- **Key Features:** Case-toggling (`alternarLetras`), fixed and parameterized substring search (`taco`, `detectarPalabra`), alternating array addition/subtraction (`alternarOperadores`), and centering a `'#'` marker on odd-dimensioned grids (`mapaCaracteres`).
-- **Location:** [`./00_Examenes/06_EjerciciosRepaso`](./00_Examenes/06_EjerciciosRepaso)
-
-#### `07_Examen` — Dungeon & Room Generator
-- **Name:** `07_Examen`
-- **Description:** Final practical exam modeling dungeons (`Mazmorra`) and 5x5 rooms (`Habitacion`) with doors (`'P'`) and monsters (`'M'`).
+#### `Marzo/Final` — Dungeon & Room Generator
+- **Name:** `Marzo/Final`
+- **Description:** Second-term final practical exam ([`main.c`](./00_Examenes/Marzo/Final/main.c)) modeling dungeons (`Mazmorra`) and 5x5 rooms (`Habitacion`) with doors (`'P'`) and monsters (`'M'`).
 - **Technologies:** C (`stdio.h`, `stdlib.h`, `stdbool.h`, `time.h`)
 - **Key Features:** Implements `AltaMazmorra`, `AltaHabitacion` (generating random 5x5 floor plans), `TienePuertas` (verifying door presence), and `CrearMonstruo` (spawning a monster on an empty tile).
-- **Location:** [`./00_Examenes/07_Examen`](./00_Examenes/07_Examen)
+- **Location:** [`./00_Examenes/Marzo/Final`](./00_Examenes/Marzo/Final)
 
 ---
 
-### `01_MayusculasYMinisculas` to `17_RobotV2` — Course Projects and Data Structures
+### `01_MayusculasYMinisculas` to `16_Pilas` — Course Projects and Data Structures
 
 #### `01_MayusculasYMinisculas` — Case Converter and Basic Calculator
 - **Name:** `01_MayusculasYMinisculas`
@@ -99,11 +86,13 @@ This directory contains C programs, algorithmic exercises, console games, grid s
 - **Key Features:** Generates solid and hollow squares, half-triangles in multiple orientations, full pyramids, solid and hollow diamonds, a circle with crosshairs, and an ASCII pumpkin.
 - **Location:** [`./02_MenuAscii`](./02_MenuAscii)
 
-#### `03_Robot` — 10x10 Grid Robot Navigation Game
+#### `03_Robot` — Grid Robot Navigation Game (`v1` & `v2`)
 - **Name:** `03_Robot`
-- **Description:** Console game where a robot (`[R]`) navigates a 10x10 circular world managing fuel (`gasolina`), collecting fuel canisters (`[B]`), and avoiding proximity mines (`[M]`).
-- **Technologies:** C (`stdio.h`, `stdlib.h`, `stdbool.h`, `time.h`)
-- **Key Features:** Supports `W`/`A`/`S`/`D` movement with wrap-around boundaries, a 4-tile dash mechanic (`E`) consuming 20 fuel units, random canister respawns refilling fuel to 100, and mine hazards.
+- **Description:** Console game where a robot (`[R]`) navigates a 2D circular world managing fuel (`gasolina`), collecting fuel canisters (`[B]`), and avoiding proximity mines (`[M]`), across two progressive iterations.
+- **Technologies:** C (`stdio.h`, `stdlib.h`, `stdbool.h`, `string.h`, `conio.h`, `time.h`)
+- **Key Features:**
+  - [`v1/main.c`](./03_Robot/v1/main.c): Fixed 10x10 circular world supporting `W`/`A`/`S`/`D` movement with wrap-around boundaries, a 4-tile dash mechanic (`E`) consuming 20 fuel units, random canister respawns refilling fuel to 100, and mine hazards.
+  - [`v2/main.c`](./03_Robot/v2/main.c): Enhanced dynamic-memory version using `Robot`, `Bidon`, and `Mina` structs, modular functions, a heap-allocated `filas x columnas` 2D board (`char **mapa` via `malloc`), directional dash (`H`), and 8-neighbor proximity mine explosions.
 - **Location:** [`./03_Robot`](./03_Robot)
 
 #### `04_HundirFlota` — Two-Player Battleship (`Hundir la Flota`)
@@ -190,7 +179,7 @@ This directory contains C programs, algorithmic exercises, console games, grid s
 
 #### `15_Listas` — Singly Linked List Data Structure (`Nodo`)
 - **Name:** `15_Listas`
-- **Description:** Dynamic singly linked list implementation (`ListasPilasYColas.dev`) using heap-allocated nodes (`malloc`/`free`).
+- **Description:** Dynamic singly linked list implementation using heap-allocated nodes (`malloc`/`free`).
 - **Technologies:** C (`stdio.h`, `stdlib.h`)
 - **Key Features:** Implements node insertion at head (`AnadirNodo`) and at position $n$ (`insertarNodoEn`), node deletion at position $n$ (`eliminarElementoOrden`), search (`tieneDato`), element sum (`sumaLista`), removing the first or second half of the list, swapping first/last or arbitrary nodes, concatenating two lists, removing even numbers, and reversing the linked list.
 - **Location:** [`./15_Listas`](./15_Listas)
@@ -202,26 +191,19 @@ This directory contains C programs, algorithmic exercises, console games, grid s
 - **Key Features:** Implements `push`, `pop`, `inicializarPila`, stack reversal (`invertirOrden`), bottom-element extraction (`extraerUltimo`), interleaving two stacks (`mezclarPilas`), swapping top and bottom elements (`cambiarPrimeroPorUltimo`), and conditional push only when the new value equals the sum of existing elements (`introducirSoloSuma`).
 - **Location:** [`./16_Pilas`](./16_Pilas)
 
-#### `17_RobotV2` — Dynamic Memory Robot World v3.0
-- **Name:** `17_RobotV2`
-- **Description:** Enhanced reimplementation of the `03_Robot` game using `Robot`, `Bidon`, and `Mina` structs, modular functions, and dynamically allocated 2D grids (`char **mapa`).
-- **Technologies:** C (`stdio.h`, `stdlib.h`, `string.h`, `conio.h`, `time.h`)
-- **Key Features:** Allocates a user-sized `filas x columnas` board on the heap via `malloc`, implements directional dash (`H`) jumping 4 tiles in the last moved direction, and models 8-neighbor proximity mine explosions that halve remaining fuel and respawn the mine.
-- **Location:** [`./17_RobotV2`](./17_RobotV2)
-
 ---
 
 ## Additional Notes
 
 ### Compilation and Execution
-Each project folder includes a Dev-C++ `.dev` project file, an auto-generated `Makefile.win`, and a precompiled Windows binary (`.exe`). To recompile any project from the command line using MinGW-w64 GCC:
+To compile any project from the command line using MinGW-w64 GCC:
 
 ```bash
 gcc main.c -o main.exe
 ```
 
 > [!IMPORTANT]
-> Several projects (`03_Robot`, `04_HundirFlota`, `05_Wordle`, `07_Conecta4`, `10_Dinos`, `11_GestorDeCitasMedicas`, `12_Laberintos`, `13_Bosque`, `17_RobotV2`) invoke Windows console commands (`system("cls")`, `system("pause")`) or `<conio.h>` functions (`getch()`, `kbhit()`). They are designed to be compiled and run on Windows (e.g., via Dev-C++ or MinGW-w64).
+> Several projects (`03_Robot`, `04_HundirFlota`, `05_Wordle`, `07_Conecta4`, `10_Dinos`, `11_GestorDeCitasMedicas`, `12_Laberintos`, `13_Bosque`) invoke Windows console commands (`system("cls")`, `system("pause")`) or `<conio.h>` functions (`getch()`, `kbhit()`). They are designed to be compiled and run on Windows (e.g., via Dev-C++ or MinGW-w64).
 
 > [!NOTE]
-> [`00_Examenes/02_Examen/Examen1DAMB.c`](./00_Examenes/02_Examen/Examen1DAMB.c) is a written exam submission using classroom Spanish pseudocode syntax (`INICIAR`, `DESDE`, `SI`, `IMPRIMIR`) rather than compilable C code.
+> [`00_Examenes/Diciembre/Final/main.c`](./00_Examenes/Diciembre/Final/main.c) is a written exam submission using classroom Spanish pseudocode syntax (`INICIAR`, `DESDE`, `SI`, `IMPRIMIR`) rather than compilable C code.
